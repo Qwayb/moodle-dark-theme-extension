@@ -11,7 +11,7 @@
         {
         "matches": ["*://moodle.tomtit-tomsk.ru/*"],
         "js": ["content.js"],
-        "css": ["dark-theme.css"]
+        "css": ["style.css"]
         }
     ],
     "web_accessible_resources": [
