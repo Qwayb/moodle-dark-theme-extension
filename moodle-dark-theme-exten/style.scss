@@ -1,59 +1,95 @@
 $main-black: #1f1f1f;
 $main-white: #fdfbfb;
 
-  body.dark-theme nav.bg-white {
-    background-color: $main-black !important;
-    border-bottom: $main-black 1px solid !important;
-  }
+  body.dark-theme {
+    nav.bg-white {
+        background-color: $main-black !important;
+        border-bottom: $main-black 1px solid !important;
+      }
+      
+       .nav-link {
+        color: $main-white !important;
+      }
+      
+       .main-inner {
+        background-color: $main-black !important;
+      }
+      
+       .h2 {
+        color: $main-white !important;
+      }
+      
+       h2 {
+        color: $main-white !important;
+      }
+      
+       h5 {
+        color: $main-white !important;
+      }
+      
+       .instance-25429-header {
+        color: $main-white !important;
+      }
+      
+       #region-main {
+        background-color: $main-black !important;
+      }
+      
+       .card {
+        background-color: $main-black !important;
+      }
+      
+       .categoryname {
+        color: $main-white !important;
+      }
+    
+       .form-control {
+        background-color: $main-black !important;
+      }
+    
+       .bg-white {
+        background-color: $main-black !important;
+      }
+    
+       .fa-ellipsis-v::before {
+        color: $main-white !important;
+      }
+    
+       .btn.btn-link.btn-icon:hover {
+        background-color: #464646 !important;
+      }
+    
+       #page.drawers {
+        scrollbar-color: #3b3b3b $main-black;
+      }
+            
+       .navbar a:hover {
+        background-color: rgb(19, 19, 19) !important;
+        color: $main-white !important;
+      }
+
+      .navbar a {
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+       .dropdown-item:hover {
+        background-color: $main-black;
+      }
+    
+       .dropdown-menu {
+        background-color: $main-black;
+      }
+    
+       .dropdown-item {
+        color: #b9b9b9;
+      }
+  } 
   
-  body.dark-theme .nav-link {
-    color: $main-white !important;
-  }
-  
-  body.dark-theme .main-inner {
-    background-color: $main-black !important;
-  }
-  
-  body.dark-theme .h2 {
-    color: $main-white !important;
-  }
-  
-  body.dark-theme h2 {
-    color: $main-white !important;
-  }
-  
-  body.dark-theme h5 {
-    color: $main-white !important;
-  }
-  
-  body.dark-theme .instance-25429-header {
-    color: $main-white !important;
-  }
-  
-  body.dark-theme #region-main {
-    background-color: $main-black !important;
-  }
-  
-  body.dark-theme .card {
-    background-color: $main-black !important;
-  }
-  
-  body.dark-theme .categoryname {
-    color: $main-white !important;
+  @media (min-width: 768px){
+    body.dark-theme {
+        background-image: none !important;    
+        background-color: #333333;
+      }    
   }
 
-  body.dark-theme .form-control {
-    background-color: $main-black !important;
-  }
-
-  body.dark-theme .bg-white {
-    background-color: $main-black !important;
-  }
-
-  body.dark-theme .fa-ellipsis-v::before {
-    color: $main-white !important;
-  }
-
-  body.dark-theme .btn.btn-link.btn-icon:hover {
-    background-color: #464646 !important;
-  }
+  
