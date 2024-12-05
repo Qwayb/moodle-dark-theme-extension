@@ -13,6 +13,12 @@
         "js": ["content.js"],
         "css": ["dark-theme.css"]
         }
+    ],
+    "web_accessible_resources": [
+        {
+        "resources": ["img/new-logo.svg"],
+        "matches": ["<all_urls>"]
+        }
     ]
 }
   
