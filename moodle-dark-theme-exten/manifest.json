@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Moodle Dark Theme",
+    "version": "1.0",
+    "description": "Добавляет тёмную тему для Moodle.",
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+      "*://*.moodle.tomtit-tomsk.ru/*"
+    ],
+    "content_scripts": [
+        {
+        "matches": ["*://moodle.tomtit-tomsk.ru/*"],
+        "js": ["content.js"],
+        "css": ["dark-theme.css"]
+        }
+    ]
+}
+  
