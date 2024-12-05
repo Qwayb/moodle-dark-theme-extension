@@ -1,40 +1,59 @@
-body.dark-theme nav.bg-white {
-    background-color: #1f1f1f !important;
-    border-bottom: #000000 1px solid !important;
+$main-black: #1f1f1f;
+$main-white: #fdfbfb;
+
+  body.dark-theme nav.bg-white {
+    background-color: $main-black !important;
+    border-bottom: $main-black 1px solid !important;
   }
   
   body.dark-theme .nav-link {
-    color: #eeeeee !important;
+    color: $main-white !important;
   }
   
   body.dark-theme .main-inner {
-    background-color: #1f1f1f !important;
+    background-color: $main-black !important;
   }
   
   body.dark-theme .h2 {
-    color: #fdfbfb !important;
+    color: $main-white !important;
   }
   
   body.dark-theme h2 {
-    color: #fdfbfb !important;
+    color: $main-white !important;
   }
   
   body.dark-theme h5 {
-    color: #fdfbfb !important;
+    color: $main-white !important;
   }
   
   body.dark-theme .instance-25429-header {
-    color: #fdfbfb !important;
+    color: $main-white !important;
   }
   
   body.dark-theme #region-main {
-    background-color: #1f1f1f !important;
+    background-color: $main-black !important;
   }
   
   body.dark-theme .card {
-    background-color: #1f1f1f !important;
+    background-color: $main-black !important;
   }
   
   body.dark-theme .categoryname {
-    color: #fdfbfb !important;
+    color: $main-white !important;
+  }
+
+  body.dark-theme .form-control {
+    background-color: $main-black !important;
+  }
+
+  body.dark-theme .bg-white {
+    background-color: $main-black !important;
+  }
+
+  body.dark-theme .fa-ellipsis-v::before {
+    color: $main-white !important;
+  }
+
+  body.dark-theme .btn.btn-link.btn-icon:hover {
+    background-color: #464646 !important;
   }

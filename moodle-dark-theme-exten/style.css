@@ -1,10 +1,10 @@
 body.dark-theme nav.bg-white {
   background-color: #1f1f1f !important;
-  border-bottom: #000000 1px solid !important;
+  border-bottom: #1f1f1f 1px solid !important;
 }
 
 body.dark-theme .nav-link {
-  color: #eeeeee !important;
+  color: #fdfbfb !important;
 }
 
 body.dark-theme .main-inner {
@@ -37,4 +37,20 @@ body.dark-theme .card {
 
 body.dark-theme .categoryname {
   color: #fdfbfb !important;
+}
+
+body.dark-theme .form-control {
+  background-color: #1f1f1f !important;
+}
+
+body.dark-theme .bg-white {
+  background-color: #1f1f1f !important;
+}
+
+body.dark-theme .fa-ellipsis-v::before {
+  color: #fdfbfb !important;
+}
+
+body.dark-theme .btn.btn-link.btn-icon:hover {
+  background-color: #464646 !important;
 }/*# sourceMappingURL=style.css.map */
