@@ -1,5 +1,10 @@
 $main-black: #1f1f1f;
-$main-white: #fdfbfb;
+$main-white: #fdfbfbc5;
+$a-color: #3ea6ff;
+$hover-black: #3a3a3a;
+$border-color: rgba(67, 67, 67, 0.5);
+
+
 
 body.dark-theme {
 
@@ -49,7 +54,7 @@ body.dark-theme {
     }
 
     .dashboard-card {  //  мои курсы карточки
-        border: 1px solid rgb(67 67 67 / 50%) !important; 
+        border: 1px solid $border-color !important; 
     }
       
        .categoryname {
@@ -126,8 +131,74 @@ body.dark-theme {
     }
 
     .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-        box-shadow: none !important;  // обводка
+        box-shadow: none !important;  // тень
     }  
+
+    .dropdown-item.active {  // меню с номером страниц снизу
+        background-color: #333333;
+    }
+
+    #paging-control-limit-container-1 {
+        color: #ffffff7d !important;  // цвет текста
+    }
+
+    // другие выди отображения курсов
+
+    .list-group-item, .list-group-item {
+        background-color: $main-black !important;
+    }
+
+    // курс внутри
+
+    .secondary-navigation .navigation {
+        border-bottom: 1px solid $main-black;
+        background-color: $main-black;
+    }
+
+    .moremenu .nav-tabs {
+        background-color: $main-black;
+    }
+
+    .tile-bg {
+        background-color: rgb(0 0 0 / 42%) !important;
+    }
+
+    .tile {
+        border-top-color: #3ea6ff !important;
+        box-shadow: none !important;
+    }
+
+    .tile.selected {
+        border-top-color: #ffd600 !important;
+    }
+
+    li .section {
+        background-color: $main-black !important;
+    }
+
+    .activity:hover {
+        background-color: #3a3a3a !important;
+    }
+
+    .sectiontitle::after {
+        background-color: $a-color !important;
+    }
+
+    .activity-item:not(.activityinline) {
+        border: 1px solid $border-color;
+    }
+
+    .course-description-item {
+        background-color: $main-black !important;
+    }
+
+    .description-inner {
+        color: $main-white;
+    }
+
+    li.section.main {
+        background-color: $main-black !important;
+    }
 } 
   
 // bg image
@@ -139,4 +210,5 @@ body.dark-theme {
     }    
 }
 
-  
+
+
