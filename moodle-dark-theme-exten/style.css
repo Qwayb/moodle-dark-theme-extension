@@ -8,6 +8,9 @@ body.dark-theme .nav-link {
 body.dark-theme .main-inner {
   background-color: #1f1f1f !important;
 }
+body.dark-theme .dropdown-toggle::after {
+  color: rgba(255, 255, 255, 0.4901960784);
+}
 body.dark-theme .h2 {
   color: #fdfbfb !important;
 }
@@ -17,6 +20,9 @@ body.dark-theme h2 {
 body.dark-theme h5 {
   color: #fdfbfb !important;
 }
+body.dark-theme a {
+  color: #3ea6ff;
+}
 body.dark-theme .instance-25429-header {
   color: #fdfbfb !important;
 }
@@ -25,6 +31,9 @@ body.dark-theme #region-main {
 }
 body.dark-theme .card {
   background-color: #1f1f1f !important;
+}
+body.dark-theme .dashboard-card {
+  border: 1px solid rgba(67, 67, 67, 0.5) !important;
 }
 body.dark-theme .categoryname {
   color: #fdfbfb !important;
@@ -45,20 +54,42 @@ body.dark-theme #page.drawers {
   scrollbar-color: #3b3b3b #1f1f1f;
 }
 body.dark-theme .navbar a:hover {
-  background-color: rgb(19, 19, 19) !important;
+  background-color: rgb(24, 24, 24) !important;
   color: #fdfbfb !important;
 }
 body.dark-theme .navbar a {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 body.dark-theme .dropdown-item:hover {
-  background-color: #1f1f1f;
+  background-color: rgb(94, 94, 94);
 }
 body.dark-theme .dropdown-menu {
   background-color: #1f1f1f;
 }
 body.dark-theme .dropdown-item {
   color: #b9b9b9;
+}
+body.dark-theme .btn.btn-link.btn-icon:focus {
+  background-color: #333333 !important;
+}
+body.dark-theme .btn-link:focus {
+  box-shadow: none !important;
+}
+body.dark-theme .btn-outline-secondary {
+  color: rgba(255, 255, 255, 0.4901960784) !important;
+}
+body.dark-theme .btn-outline-secondary:hover {
+  background-color: #3a3a3a;
+}
+body.dark-theme .btn-outline-secondary:not(:disabled):not(.disabled).active, body.dark-theme .show > .btn-outline-secondary.dropdown-toggle {
+  background-color: #686868 !important;
+  color: #ffffff !important;
+}
+body.dark-theme .btn-outline-secondary:not(:disabled):not(.disabled):active {
+  background-color: #808080 !important;
+}
+body.dark-theme .btn-outline-secondary:focus, body.dark-theme .btn-outline-secondary.focus {
+  box-shadow: none !important;
 }
 
 @media (min-width: 768px) {

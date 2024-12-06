@@ -1,7 +1,8 @@
 $main-black: #1f1f1f;
 $main-white: #fdfbfb;
 
-  body.dark-theme {
+body.dark-theme {
+
     nav.bg-white {
         background-color: $main-black !important;
         border-bottom: $main-black 1px solid !important;
@@ -13,6 +14,10 @@ $main-white: #fdfbfb;
       
        .main-inner {
         background-color: $main-black !important;
+      }
+
+      .dropdown-toggle::after {  // все стрелочки на сайте
+        color: #ffffff7d;
       }
       
        .h2 {
@@ -26,6 +31,10 @@ $main-white: #fdfbfb;
        h5 {
         color: $main-white !important;
       }
+
+    a {
+        color: #3ea6ff;
+    }
       
        .instance-25429-header {
         color: $main-white !important;
@@ -35,9 +44,13 @@ $main-white: #fdfbfb;
         background-color: $main-black !important;
       }
       
-       .card {
+    .card {  // bg всего?
         background-color: $main-black !important;
-      }
+    }
+
+    .dashboard-card {  //  мои курсы карточки
+        border: 1px solid rgb(67 67 67 / 50%) !important; 
+    }
       
        .categoryname {
         color: $main-white !important;
@@ -64,7 +77,7 @@ $main-white: #fdfbfb;
       }
             
        .navbar a:hover {
-        background-color: rgb(19, 19, 19) !important;
+        background-color: rgb(24, 24, 24) !important;
         color: $main-white !important;
       }
 
@@ -73,7 +86,7 @@ $main-white: #fdfbfb;
     }
     
        .dropdown-item:hover {
-        background-color: $main-black;
+        background-color: rgb(94, 94, 94);
       }
     
        .dropdown-menu {
@@ -83,13 +96,47 @@ $main-white: #fdfbfb;
        .dropdown-item {
         color: #b9b9b9;
       }
-  } 
+
+      .btn.btn-link.btn-icon:focus {
+        background-color: #333333 !important;
+      }
+
+      .btn-link:focus {
+        box-shadow: none !important;
+      }
+
+
+    // выпадающие меню
+
+    .btn-outline-secondary {
+        color: #ffffff7d !important;  // цвет текста
+    }
+
+    .btn-outline-secondary:hover {
+        background-color: #3a3a3a;  // hover
+    }
+
+    .btn-outline-secondary:not(:disabled):not(.disabled).active, .show>.btn-outline-secondary.dropdown-toggle {
+        background-color: #686868 !important;  // нажато
+        color: #ffffff !important;  // цвет текста
+    }
+
+    .btn-outline-secondary:not(:disabled):not(.disabled):active {
+        background-color: #808080 !important;  // click
+    }
+
+    .btn-outline-secondary:focus, .btn-outline-secondary.focus {
+        box-shadow: none !important;  // обводка
+    }  
+} 
   
-  @media (min-width: 768px){
+// bg image
+
+@media (min-width: 768px){
     body.dark-theme {
         background-image: none !important;    
         background-color: #333333;
-      }    
-  }
+    }    
+}
 
   
