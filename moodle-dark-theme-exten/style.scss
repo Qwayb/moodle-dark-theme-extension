@@ -8,197 +8,254 @@ $border-color: rgba(67, 67, 67, 0.5);
 
 body.dark-theme {
 
-    nav.bg-white {
-        background-color: $main-black !important;
-        border-bottom: $main-black 1px solid !important;
-      }
+  nav.bg-white {
+    background-color: $main-black !important;
+    border-bottom: $main-black 1px solid !important;
+  }
       
-       .nav-link {
-        color: $main-white !important;
-      }
-      
-       .main-inner {
-        background-color: $main-black !important;
-      }
+  .nav-link {
+    color: $main-white !important;
+  }
 
-      .dropdown-toggle::after {  // все стрелочки на сайте
-        color: #ffffff7d;
-      }
-      
-       .h2 {
-        color: $main-white !important;
-      }
-      
-       h2 {
-        color: $main-white !important;
-      }
-      
-       h5 {
-        color: $main-white !important;
-      }
+  .main-inner {
+    background-color: $main-black !important;
+  }
 
-    a {
-        color: #3ea6ff;
-    }
-      
-       .instance-25429-header {
-        color: $main-white !important;
-      }
-      
-       #region-main {
-        background-color: $main-black !important;
-      }
-      
-    .card {  // bg всего?
-        background-color: $main-black !important;
-    }
+  .dropdown-toggle::after {  // все стрелочки на сайте
+    color: #ffffff7d;
+  }
 
-    .dashboard-card {  //  мои курсы карточки
-        border: 1px solid $border-color !important; 
-    }
+  h1 {
+    color: $main-white !important;
+  }
+
+  .h2 {
+    color: $main-white !important;
+  }
+
+  h2 {
+    color: $main-white !important;
+  }
+
+  h5 {
+    color: $main-white !important;
+  }
+
+  a {
+    color: #3ea6ff;
+  }
+
+  .login-container {
+    background-color: $main-black;
+    box-shadow: 0 0.5rem 4rem rgb(0 0 0 / 42%);
+  }
+
+  .btn-secondary {
+    color: $main-white;
+    background-color: $main-black;
+    border-color: $border-color;
+  }
+
+  .btn-secondary:hover {
+    background-color: $hover-black;
+  }
+
+  .border-left {
+    border-left: 1px solid $border-color !important;
+  }
+
+  .divider {
+    background-color: $border-color !important;
+  }
+
+  .form-control {
+    color: $main-white;
+    border: 1px solid $border-color;
+  }
+  .nav-link:hover,
+  .active:hover {
+    background-color: $hover-black !important;
+  }
+  
+  .login-divider {
+    border-top: 1px solid $border-color;
+  }
+
+  .modal-content {
+    background-color: $main-black;
+  }
+
+  #page {
+    background-image: none !important;
+    background-color: $main-black;
+  }
+
+  .d-flex > h3, div {
+    color: $main-white !important;
+  }
+
+  .post-content-container {
+    color: $main-white !important;
+  }
       
-       .categoryname {
-        color: $main-white !important;
-      }
+  .instance-25429-header {
+    color: $main-white !important;
+  }
+      
+  #region-main {
+    background-color: $main-black !important;
+  }
+      
+  .card {  // bg всего?
+      background-color: $main-black !important;
+  }
+
+  .dashboard-card {  //  мои курсы карточки
+      border: 1px solid $border-color !important; 
+  }
+      
+  .categoryname {
+    color: $main-white !important;
+  }
     
-       .form-control {
-        background-color: $main-black !important;
-      }
+  .form-control {
+    background-color: $main-black !important;
+  }
     
-       .bg-white {
-        background-color: $main-black !important;
-      }
+  .bg-white {
+    background-color: $main-black !important;
+  }
     
-       .fa-ellipsis-v::before {
-        color: $main-white !important;
-      }
+  .fa-ellipsis-v::before {
+    color: $main-white !important;
+  }
     
-       .btn.btn-link.btn-icon:hover {
-        background-color: #464646 !important;
-      }
+  .btn.btn-link.btn-icon:hover {
+    background-color: #464646 !important;
+  }
     
-       #page.drawers {
-        scrollbar-color: #3b3b3b $main-black;
-      }
+  #page.drawers {
+    scrollbar-color: #3b3b3b $main-black;
+  }
             
-       .navbar a:hover {
-        background-color: rgb(24, 24, 24) !important;
-        color: $main-white !important;
-      }
+  .navbar a:hover {
+    background-color: rgb(24, 24, 24) !important;
+    color: $main-white !important;
+  }
 
-      .navbar a {
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
+  .navbar a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
     
-       .dropdown-item:hover {
-        background-color: rgb(94, 94, 94);
-      }
-    
-       .dropdown-menu {
-        background-color: $main-black;
-      }
-    
-       .dropdown-item {
-        color: #b9b9b9;
-      }
+  .dropdown-item:hover {
+    background-color: rgb(94, 94, 94);
+  }
 
-      .btn.btn-link.btn-icon:focus {
-        background-color: #333333 !important;
-      }
+  .dropdown-menu {
+    background-color: $main-black;
+  }
 
-      .btn-link:focus {
-        box-shadow: none !important;
-      }
+  .dropdown-item {
+    color: #b9b9b9;
+  }
+
+  .btn.btn-link.btn-icon:focus {
+    background-color: #333333 !important;
+  }
+
+  .btn-link:focus {
+    box-shadow: none !important;
+  }
 
 
     // выпадающие меню
 
-    .btn-outline-secondary {
-        color: #ffffff7d !important;  // цвет текста
-    }
+  .btn-outline-secondary {
+      color: #ffffff7d !important;  // цвет текста
+  }
 
-    .btn-outline-secondary:hover {
-        background-color: #3a3a3a;  // hover
-    }
+  .btn-outline-secondary:hover {
+      background-color: #3a3a3a;  // hover
+  }
 
-    .btn-outline-secondary:not(:disabled):not(.disabled).active, .show>.btn-outline-secondary.dropdown-toggle {
-        background-color: #686868 !important;  // нажато
-        color: #ffffff !important;  // цвет текста
-    }
+  .btn-outline-secondary:not(:disabled):not(.disabled).active, .show>.btn-outline-secondary.dropdown-toggle {
+      background-color: #686868 !important;  // нажато
+      color: #ffffff !important;  // цвет текста
+  }
 
-    .btn-outline-secondary:not(:disabled):not(.disabled):active {
-        background-color: #808080 !important;  // click
-    }
+  .btn-outline-secondary:not(:disabled):not(.disabled):active {
+      background-color: #808080 !important;  // click
+  }
 
-    .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-        box-shadow: none !important;  // тень
-    }  
+  .btn-outline-secondary:focus, .btn-outline-secondary.focus {
+      box-shadow: none !important;  // тень
+  }  
 
-    .dropdown-item.active {  // меню с номером страниц снизу
-        background-color: #333333;
-    }
+  .dropdown-item.active {  // меню с номером страниц снизу
+      background-color: #333333;
+  }
 
-    #paging-control-limit-container-1 {
-        color: #ffffff7d !important;  // цвет текста
-    }
+  #paging-control-limit-container-1 {
+      color: #ffffff7d !important;  // цвет текста
+  }
 
-    // другие выди отображения курсов
+  // другие выди отображения курсов
 
-    .list-group-item, .list-group-item {
-        background-color: $main-black !important;
-    }
+  .list-group-item, .list-group-item {
+      background-color: $main-black !important;
+  }
 
-    // курс внутри
+  // курс внутри
 
-    .secondary-navigation .navigation {
-        border-bottom: 1px solid $main-black;
-        background-color: $main-black;
-    }
+  .secondary-navigation .navigation {
+      border-bottom: 1px solid $main-black;
+      background-color: $main-black;
+  }
 
-    .moremenu .nav-tabs {
-        background-color: $main-black;
-    }
+  .moremenu .nav-tabs {
+      background-color: $main-black;
+  }
 
-    .tile-bg {
-        background-color: rgb(0 0 0 / 42%) !important;
-    }
+  .tile-bg {
+      background-color: rgb(0 0 0 / 42%) !important;
+  }
 
-    .tile {
-        border-top-color: #3ea6ff !important;
-        box-shadow: none !important;
-    }
+  .tile {
+      border-top-color: #3ea6ff !important;
+      box-shadow: none !important;
+  }
 
-    .tile.selected {
-        border-top-color: #ffd600 !important;
-    }
+  .tile.selected {
+      border-top-color: #ffd600 !important;
+  }
 
-    li .section {
-        background-color: $main-black !important;
-    }
+  li .section {
+      background-color: $main-black !important;
+  }
 
-    .activity:hover {
-        background-color: #3a3a3a !important;
-    }
+  .activity:hover {
+      background-color: #3a3a3a !important;
+  }
 
-    .sectiontitle::after {
-        background-color: $a-color !important;
-    }
+  .sectiontitle::after {
+      background-color: $a-color !important;
+  }
 
-    .activity-item:not(.activityinline) {
-        border: 1px solid $border-color;
-    }
+  .activity-item:not(.activityinline) {
+      border: 1px solid $border-color;
+  }
 
-    .course-description-item {
-        background-color: $main-black !important;
-    }
+  .course-description-item {
+      background-color: $main-black !important;
+  }
 
-    .description-inner {
-        color: $main-white;
-    }
+  .description-inner {
+      color: $main-white;
+  }
 
-    li.section.main {
-        background-color: $main-black !important;
-    }
+  li.section.main {
+      background-color: $main-black !important;
+  }
 } 
   
 // bg image

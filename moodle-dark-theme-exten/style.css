@@ -11,6 +11,9 @@ body.dark-theme .main-inner {
 body.dark-theme .dropdown-toggle::after {
   color: rgba(255, 255, 255, 0.4901960784);
 }
+body.dark-theme h1 {
+  color: rgba(253, 251, 251, 0.7725490196) !important;
+}
 body.dark-theme .h2 {
   color: rgba(253, 251, 251, 0.7725490196) !important;
 }
@@ -22,6 +25,48 @@ body.dark-theme h5 {
 }
 body.dark-theme a {
   color: #3ea6ff;
+}
+body.dark-theme .login-container {
+  background-color: #1f1f1f;
+  box-shadow: 0 0.5rem 4rem rgba(0, 0, 0, 0.42);
+}
+body.dark-theme .btn-secondary {
+  color: rgba(253, 251, 251, 0.7725490196);
+  background-color: #1f1f1f;
+  border-color: rgba(67, 67, 67, 0.5);
+}
+body.dark-theme .btn-secondary:hover {
+  background-color: #3a3a3a;
+}
+body.dark-theme .border-left {
+  border-left: 1px solid rgba(67, 67, 67, 0.5) !important;
+}
+body.dark-theme .divider {
+  background-color: rgba(67, 67, 67, 0.5) !important;
+}
+body.dark-theme .form-control {
+  color: rgba(253, 251, 251, 0.7725490196);
+  border: 1px solid rgba(67, 67, 67, 0.5);
+}
+body.dark-theme .nav-link:hover,
+body.dark-theme .active:hover {
+  background-color: #3a3a3a !important;
+}
+body.dark-theme .login-divider {
+  border-top: 1px solid rgba(67, 67, 67, 0.5);
+}
+body.dark-theme .modal-content {
+  background-color: #1f1f1f;
+}
+body.dark-theme #page {
+  background-image: none !important;
+  background-color: #1f1f1f;
+}
+body.dark-theme .d-flex > h3, body.dark-theme div {
+  color: rgba(253, 251, 251, 0.7725490196) !important;
+}
+body.dark-theme .post-content-container {
+  color: rgba(253, 251, 251, 0.7725490196) !important;
 }
 body.dark-theme .instance-25429-header {
   color: rgba(253, 251, 251, 0.7725490196) !important;
